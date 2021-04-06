@@ -1,4 +1,25 @@
-body {background-color:tan;}
-h1{color:green;}
+body {background-color:black;color:white;font:arial;
+.mainDiv {
+  border: 25px outset red;
+  background-color: white;
+  color:black;
+  width:600px;
+  text-align: center; }}
+h1{color:grey;font :verdana}
+.mainDiv {
+  top:50%;
+  left: 50%;
+  transform: translate3d(-50%,-50%, 0);
+  position: absolute;
+  border: outset red;
+  border-radius: 25px;
+  background-color: white;
+  color:black;
+  width:600px;
+  padding: 20px;
+}
+.highlight {
+  background-color: yellow;
+}
 
 
